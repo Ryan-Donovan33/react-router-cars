@@ -28,6 +28,8 @@ function Landing({ cars, setCars }) {
 			<div className="search-bar-section">
 				<form onSubmit={(e) => submitHandler(e)}>
 					<input name="search" placeholder="Enter A Model" onChange={(e) => setInput(e.target.value)} />
+
+					{/* Look at AH video to figure out filter and search */}
 					<button className="search-button">Search</button>
 					<button
 						className="clear-filters"
